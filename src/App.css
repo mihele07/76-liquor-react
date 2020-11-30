@@ -1,0 +1,97 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.link {
+  color: white;
+  margin: 5px;
+}
+ 
+.background-image {
+  background-image: url("./bkgdImages/pexels-bernyce-hollingworth-2702805.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 2000px;
+}
+
+.ourstory-backround-image {
+  background-image: url('./bkgdImages/card1-bourbons-blur.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1000px;
+  background-position: center;
+}
+.products-backround-image {
+  background-image: url('./bkgdImages/champ-blur.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height:1000px;
+  width: 1000p;
+  margin: absolute;
+  background-position: 0rem;
+}
+
+.contact-backround-image {
+  background-image: url('./bkgdImages/card2-wine-blur.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height:1000px;
+  width: 1000p;
+  margin: absolute;
+  background-position: 0rem;
+}
+
+h1,
+h2,
+h3,
+.card-body > .card-title {
+  font-family: "Lobster", cursive;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-color: #760834;
+  padding: 20px 0;
+  color: white;
+  text-align: left;
+}
+.list-unstyled {
+  text-align: left;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: url("./bkgdImages/header-pic2.jpg");
+  color: white;
+  height: 170px;
+}
+
+.jumbotron h2 {
+  color: #cec8ff;
+}
+
+.navbar-dark {
+  background-color: #760834;
+}
