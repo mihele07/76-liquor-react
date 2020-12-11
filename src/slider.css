@@ -1,0 +1,14 @@
+.car {
+  margin: auto;
+  width: 919px;
+  height: 525px;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid white;
+}
+
+.carousel-div {
+    padding-top: 10px;
+}
+
+

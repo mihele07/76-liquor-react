@@ -1,0 +1,35 @@
+.adress {
+    color: black;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+  }
+
+  .site-footer {
+    background-color: #760834;
+    padding: 20px 0;
+    color: white;
+    text-align: left;
+  }
+
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: url("./bkgdImages/header-pic2.jpg");
+    color: white;
+    height: 170px;
+  }
+  
+  .jumbotron h2 {
+    color: #cec8ff;
+  }
+
+  .navbar-dark {
+    background-color: #760834;
+  }
+
+  .list-unstyled {
+    text-align: left;
+  }
+  
+  

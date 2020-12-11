@@ -1,0 +1,13 @@
+.background-image {
+    background-image: url("./bkgdImages/pexels-bernyce-hollingworth-2702805.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 1900px;
+  }
+
+  .slogan {
+    color: white;
+    text-align: center;
+  }

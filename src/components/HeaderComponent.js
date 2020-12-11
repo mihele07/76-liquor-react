@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../header-footer.css'
 import {
   Nav,
   Navbar,
@@ -28,6 +29,7 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
+        
         <Jumbotron fluid>
           <div className="container">
             <div className="row">
@@ -36,6 +38,7 @@ class Header extends Component {
             </div>
           </div>
         </Jumbotron>
+        <p className="adress">1473 1st Avenue, New York, NY 10021 | 212-249-1700</p>
         <Navbar dark sticky="top" expand="md">
           <div className="container">
             <NavbarBrand className="mr-auto" href="/">
@@ -76,7 +79,9 @@ class Header extends Component {
             </Collapse>
           </div>
         </Navbar>
+        
       </React.Fragment>
+      
     );
   }
 }

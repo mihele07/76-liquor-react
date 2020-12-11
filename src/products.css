@@ -1,0 +1,10 @@
+.products-backround-image {
+    background-image: url('./bkgdImages/champ-blur.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height:1000px;
+    width: 1000p;
+    margin: absolute;
+    background-position: 0rem;
+  }

@@ -1,19 +1,26 @@
+//import { Carousel } from "bootstrap";
 import React, { Component } from "react";
+import "../home.css";
+import { SliderData } from "./SliderData";
+import { ImageSlider } from "./ImageSlider";
+import { CardsForHomepage } from "./CardsForHomepage";
+import GlowingTitle from "./GlowingTitle";
 
 class HomePage extends Component {
-    constructor(props) {
-        super(props);
-        this.State = {
+  constructor(props) {
+    super(props);
+    this.State = {};
+  }
 
-        }
-    }
-    render() {
-        return (
-            <div className="background-image">
-                <img src = "./images/card4-champ.jpg" alt = "wine"/>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="background-image">
+        <ImageSlider sliderdata={SliderData} />
+        <CardsForHomepage />
+        <GlowingTitle />
+      </div>
+    );
+  }
 }
 
-export default HomePage
+export default HomePage;

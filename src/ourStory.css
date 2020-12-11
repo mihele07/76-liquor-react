@@ -1,0 +1,50 @@
+.ourstory-backround-image {
+    background-image: url('./bkgdImages/card1-bourbons-blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:680px;
+    background-position: center;
+  }
+
+  .ourstory {
+ 
+   
+  }
+
+  .story-text {
+    margin-top: 10%;
+    
+    font-size: 1.2rem;
+    border: 2px solid white;
+    width: 55%;
+    height: 80%;
+    background-color: white;
+    margin: auto;
+    color: black;
+    border-radius: 20%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    padding: 2%;
+
+
+    
+  }
+
+  .story-image {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    border-radius: 20%;
+    border: 3px solid white;
+  }
+
+  .story-image2 {
+    width: 400px;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    border-radius: 20%;
+    border: 3px solid white;
+  }

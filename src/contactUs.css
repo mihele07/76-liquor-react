@@ -1,0 +1,10 @@
+.contact-background-image {
+    background-image: url('./bkgdImages/card2-wine-blur.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height:100px;
+    width: 100px;
+    margin: absolute;
+    background-position: 0rem;
+  }
