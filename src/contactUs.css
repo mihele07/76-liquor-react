@@ -3,8 +3,23 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    height:100px;
-    width: 100px;
+    height:1000px;
+  
     margin: absolute;
     background-position: 0rem;
   }
+
+  .bread h2{
+    font-size: 1.50rem;
+    font-weight: 600 ;
+    color: blue;
+    font-style: initial;
+    
+    
+    }
+    .feedBack {
+    font-size: 1.50rem;
+    font-weight: 600 ;
+    color: yellow;
+    font-style: italic;
+    }

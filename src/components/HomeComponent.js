@@ -1,7 +1,7 @@
 //import { Carousel } from "bootstrap";
 import React, { Component } from "react";
 import "../home.css";
-import { SliderData } from "./SliderData";
+import { SliderData } from "../Data/SliderData";
 import { ImageSlider } from "./ImageSlider";
 import { CardsForHomepage } from "./CardsForHomepage";
 import GlowingTitle from "./GlowingTitle";

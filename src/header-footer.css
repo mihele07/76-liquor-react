@@ -1,35 +1,74 @@
 .adress {
-    color: black;
-    margin: auto;
-    text-align: center;
-    background-color: white;
-  }
+  color: black;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
 
-  .site-footer {
-    background-color: #760834;
-    padding: 20px 0;
-    color: white;
-    text-align: left;
-  }
+.site-footer {
+  background-color: #760834;
+  padding: 20px 0;
+  color: white;
+  text-align: left;
+}
 
-  .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: url("./bkgdImages/header-pic2.jpg");
-    color: white;
-    height: 170px;
-  }
-  
-  .jumbotron h2 {
-    color: #cec8ff;
-  }
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: url("./bkgdImages/header-pic2.jpg");
+  color: white;
+  height: 170px;
+}
 
-  .navbar-dark {
-    background-color: #760834;
-  }
+.jumbotron h2 {
+  color: #cec8ff;
+}
 
-  .list-unstyled {
-    text-align: left;
-  }
-  
-  
+.navbar-dark {
+  background-color: #760834;
+}
+
+.nav-pad {
+  padding-left: 400px;
+}
+
+.list-unstyled {
+  text-align: left;
+}
+
+.delivery {
+  padding-left: 200px;
+}
+
+.slogan-text1 {
+  color: red !important;
+  position: absolute !important;
+  top: -30px !important;
+  left: 780px !important;
+  width: 500px !important;
+  font-size: 1.7rem;
+}
+
+.slogan-text2 {
+  color: red !important;
+  position: absolute !important;
+  top: -2px !important;
+  left: 670px !important;
+  width: 500px !important;
+  font-size: 1.7rem;
+}
+
+.logo-position {
+  position: absolute !important;
+  top: -18px !important;
+  right: 320px !important;
+  width: 100px !important;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: blue;
+  font-style: initial;
+}

@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../header-footer.css'
+import "../header-footer.css";
 
 function Footer(props) {
   return (
+    
     <footer className="site-footer">
       <footer className="site-footer">
         <div className="container">
@@ -12,16 +13,24 @@ function Footer(props) {
               <h5>Links</h5>
               <ul className="list-unstyled">
                 <li>
-                  <Link className = "link" to="/home"><i className="fa fa-home" /> Home</Link>
+                  <Link className="link" to="/home">
+                    <i className="fa fa-home" /> Home
+                  </Link>
                 </li>
                 <li>
-                  <Link className = "link" to="/ourstory"><i className="fa fa-info" /> Our Story</Link>
+                  <Link className="link" to="/ourstory">
+                    <i className="fa fa-info" /> Our Story
+                  </Link>
                 </li>
                 <li>
-                  <Link className = "link" to="/products"><i className="fa fa-list" /> Products</Link>
+                  <Link className="link" to="/products">
+                    <i className="fa fa-list" /> Products
+                  </Link>
                 </li>
                 <li>
-                  <Link className = "link" to="contactus"><i className="fa fa-address-card" /> Contact</Link>
+                  <Link className="link" to="contactus">
+                    <i className="fa fa-address-card" /> Contact
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -52,10 +61,15 @@ function Footer(props) {
                 <i className="fa fa-youtube" />
               </a>
             </div>
-            
+
             <div className="col-sm-4 text-center">
-              <a  role="button" className="btn btn-link" href="tel: 212-249-1700">
-                <i className="fa fa-phone" /> <span className = "link">212-249-1700</span>
+              <a
+                role="button"
+                className="btn btn-link"
+                href="tel: 212-249-1700"
+              >
+                <i className="fa fa-phone" />{" "}
+                <span className="link">212-249-1700</span>
               </a>
               <br />
               <a
@@ -63,24 +77,23 @@ function Footer(props) {
                 className="btn btn-link"
                 href="mailto:notreal@notreal.co"
               >
-                <i className="fa fa-envelope-o" /><span className = "link">frank@76liquors.com</span>
+                <i className="fa fa-envelope-o" />
+                <span className="link">frank@76liquors.com</span>
               </a>
-              <br/>
-              
-              <a  role="button" className="btn btn-link" href="1473 1st Avenue">
-                <i className="fa fa-map-marker" /> <span className = "link">1473 1st Avenue, New York , New York 10021</span>
+              <br />
+
+              <a role="button" className="btn btn-link" href="1473 1st Avenue">
+                <i className="fa fa-map-marker" />{" "}
+                <span className="link">
+                  1473 1st Avenue, New York , New York 10021
+                </span>
               </a>
-
-
-
-              
-                
-                </div>
             </div>
           </div>
-        
+        </div>
       </footer>
     </footer>
+    
   );
 }
 

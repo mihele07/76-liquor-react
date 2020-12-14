@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import '../header-footer.css'
 import {
   Nav,
   Navbar,
@@ -8,16 +7,27 @@ import {
   Collapse,
   NavItem,
   Jumbotron,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  Form,
+  FormGroup,
+  Input,
+  Label,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.toggleNav = this.toggleNav.bind(this);
+
     this.state = {
       isNavOpen: false,
+      isModalOpen: false,
     };
+    this.toggleNav = this.toggleNav.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
+    this.handleLogin = this.handleLogin.bind(this);
   }
 
   toggleNav() {
@@ -26,19 +36,30 @@ class Header extends Component {
     });
   }
 
+  toggleModal() {
+    this.setState({ isModalOpen: !this.state.isModalOpen });
+  }
+
+  handleLogin(event) {
+    alert(
+      `Username: ${this.username.value} Password: ${this.password.value} Remember: ${this.remember.checked}`
+    );
+    this.toggleModal();
+    event.preventDefault();
+  }
+
   render() {
     return (
       <React.Fragment>
-        
         <Jumbotron fluid>
           <div className="container">
-            <div className="row">
-              <div className="col">
-              </div>
-            </div>
+            <div className="row"></div>
           </div>
         </Jumbotron>
-        <p className="adress">1473 1st Avenue, New York, NY 10021 | 212-249-1700</p>
+        <p className="adress">
+          1473 1st Avenue, New York, NY 10021 || 212-249-1700 || Open Monday -
+          Saturday till Midnight.
+        </p>
         <Navbar dark sticky="top" expand="md">
           <div className="container">
             <NavbarBrand className="mr-auto" href="/">
@@ -51,7 +72,7 @@ class Header extends Component {
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
-              <Nav navbar>
+              <Nav navbar className="ml-auto">
                 <NavItem>
                   <NavLink className="nav-link" to="/home">
                     <i className="fa fa-home fa-lg" /> Home
@@ -77,11 +98,51 @@ class Header extends Component {
                 </NavItem>
               </Nav>
             </Collapse>
+            <span className="navbar-text ml-auto">
+              <button outline onClick={this.toggleModal}>
+                <i className="fa fa-sign-in fa-lg" /> Delivery Option
+              </button>
+            </span>
           </div>
         </Navbar>
-        
+        <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
+          <ModalHeader toggle={this.toggleModal}> Delivery Option </ModalHeader>
+          <ModalBody>
+            <Form onSubmit={this.handleLogin}>
+              <FormGroup>
+                <Label htmlFor="firstLast">First & Last Name </Label>
+                <Input
+                  type="text"
+                  id="firstLast"
+                  name="firstLast"
+                  innerRef={(input) => (this.firstLast = input)}
+                />
+              </FormGroup>
+              <FormGroup>
+                <Label htmlFor="address"> Address </Label>
+                <Input
+                  type="text"
+                  id="address"
+                  name="address"
+                  innerRef={(input) => (this.address = input)}
+                />
+              </FormGroup>
+              <FormGroup>
+                <Label htmlFor="phoneNumber"> Phone Number </Label>
+                <Input
+                  type="tel"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                  innerRef={(input) => (this.phoneNumber = input)}
+                />
+              </FormGroup>
+              <button type="submit" value="submit" color="primary">
+                Submit
+              </button>
+            </Form>
+          </ModalBody>
+        </Modal>
       </React.Fragment>
-      
     );
   }
 }

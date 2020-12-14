@@ -26,7 +26,7 @@ We offer complementary and prompt delivery to our neighborhood, and we are open 
           </p>
           <p>
 Our helpful, friendly and courteous staff are here and ready to serve you. Please stop in and see us! 
-If you have any questions, please feel free to Contact Us. We appreciate your business!
+If you have any questions, please feel free to <a href = '/contactus'> Contact Us.</a> We appreciate your business!
           </p>
         </div>
       </div>
