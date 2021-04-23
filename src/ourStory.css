@@ -1,50 +1,110 @@
 .ourstory-backround-image {
-    background-image: url('./bkgdImages/card1-bourbons-blur.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:680px;
-    background-position: center;
-  }
+  background-image: url("./bkgdImages/card1-bourbons-blur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .ourstory {
- 
-   
-  }
+.about {
+  margin: 0%;
+}
 
-  .story-text {
-    margin-top: 10%;
-    
-    font-size: 1.2rem;
-    border: 2px solid white;
-    width: 55%;
-    height: 80%;
-    background-color: white;
-    margin: auto;
-    color: black;
-    border-radius: 20%;
-    position: absolute;
-    right: 5%;
-    top: 50%;
-    padding: 2%;
+.about-title {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  margin-top: 2em;
+  font-size: 3em;
+}
 
+.arrow {
+  color: orange;
+  font-size: 2rem;
+}
 
-    
-  }
+.ourstory {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
 
-  .story-image {
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    border-radius: 20%;
-    border: 3px solid white;
-  }
+.story-text {
+  font-size: 1.2rem;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px;
+  padding: 70px 10px;
+  flex: 2;
+}
 
+.story-text .parag {
+  padding: 0 50px;
+}
+
+.story-image {
+  width: 30em;
+  height: 17em;
+  margin-right: 50px;
+  flex: 1;
+
+  border-radius: 10%;
+  border: 3px solid white;
+}
+
+.story-image2 {
+  width: 30em;
+  height: 17em;
+  margin-left: 50px;
+  flex: 1;
+
+  border-radius: 10%;
+  border: 3px solid white;
+}
+
+.imageGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .story-image,
   .story-image2 {
-    width: 400px;
-    position: absolute;
-    top: 90%;
-    left: 5%;
-    border-radius: 20%;
-    border: 3px solid white;
+    width: 20em;
+    height: 11em;
   }
+  .story-text {
+    flex: 2;
+  }
+}
+
+@media (max-width: 750px) {
+  .imageGroup {
+    justify-content: center;
+    width: 200px;
+    height: 110px;
+  }
+  .story-image,
+  .story-image2 {
+    width: 20em;
+    height: 11em;
+    margin: 20px;
+  }
+  .story-text {
+    margin-top: 350px;
+  }
+}

@@ -1,5 +1,4 @@
 .cardBody {
-    margin-left:8% ;
 }
 
 .card-body {
@@ -9,11 +8,13 @@
 }
 
 .card {
-  width: 80%;
-  margin: 2rem 0;
+  width: 60%;
+  margin: 5% auto;
   border: 10px;
   border: solid 5px white;
 }
- .card a {
-     text-decoration: none;
- }
+.card a {
+  text-decoration: none;
+}
+
+

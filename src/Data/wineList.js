@@ -1,7 +1,7 @@
 export const wineList = [
   {
     id: 1,
-    name: "MAYACAMAS VINEYARDS CABERNET SAUVIGNON 2014",
+    name: "MAYACAMAS VINEYARDS CABERNET 2014",
     type: "Red",
     price: "$40",
     image: "../assets/wines/wine-1.png",
@@ -21,7 +21,7 @@ export const wineList = [
 
   {
     id: 3,
-    name: "VIÑA VIK MILLAHUE 2013",
+    name: "VIÑA VIK --- WINERY MILLAHUE --- Red 2013",
     type: "Red",
     price: "$125",
     image: "../assets/wines/wine-3.png",
@@ -31,7 +31,7 @@ export const wineList = [
 
   {
     id: 4,
-    name: "KIR-YIANNI ESTATE RAMNISTA 2013",
+    name: "KIR-YIANNI ESTATE RAMNISTA NAOUSSA 2013",
     type: "Red",
     price: "$29",
     image: "../assets/wines/wine-4.png",
@@ -41,7 +41,7 @@ export const wineList = [
 
   {
     id: 5,
-    name: "AZIENDA AGRICOLA ARIANNA OCCHIPINTI SP68 SICILIA ROSSO IGT 2017",
+    name: "AZIENDA AGRICOLA ARIANNA OCCHIPINTI SP68 ROSSO 2017",
     type: "Red",
     price: "$30",
     image: "../assets/wines/wine-5.png",
@@ -51,7 +51,7 @@ export const wineList = [
 
   {
     id: 6,
-    name: "DAMILANO BAROLO LECINQUEVIGNE 2013",
+    name: "DAMILANO BAROLO RED LECINQUEVIGNE 2013",
     type: "Red",
     price: "$43",
     image: "../assets/wines/wine-6.png",

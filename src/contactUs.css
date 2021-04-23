@@ -3,16 +3,15 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    height:1000px;
+    min-height: 70vh;
   
     margin: absolute;
     background-position: 0rem;
   }
 
-  .bread h2{
-    font-size: 1.50rem;
+  .bread h1{
     font-weight: 600 ;
-    color: blue;
+    color: #65062c;
     font-style: initial;
     
     
@@ -23,3 +22,27 @@
     color: yellow;
     font-style: italic;
     }
+
+    label {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      font-style: initial;
+    }
+
+    .address {
+    color: gold;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+    @media(max-width: 800px) {
+      .address {
+        font-size: 1.4rem;
+        margin: 20px;
+    }
+    }
+
+  

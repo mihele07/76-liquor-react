@@ -1,3 +1,30 @@
+.header-wines {
+  margin: auto;
+  /* padding: 30px; */
+  background-image: url("./bkgdImages/newheader-pic2.jpg");
+  color: white;
+  height: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.logo-header {
+  color: #760834;
+  font-family: 'Nunito', sans-serif;
+  margin: 10px 20px;
+}
+
+@media(max-width: 600px) {
+  .logo-header {
+    letter-spacing: -1px;
+    font-size: 1.9rem;
+}
+}
+
 .adress {
   color: black;
   margin: auto;
@@ -12,13 +39,21 @@
   text-align: left;
 }
 
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: url("./bkgdImages/header-pic2.jpg");
-  color: white;
-  height: 170px;
+
+
+.logo-footer {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  justify-items: center;
+  position: absolute;
+  top: 80px;
+  left: 20%;
+  letter-spacing: 0.2em;
+  line-height: 0.8;
 }
+
+
 
 .jumbotron h2 {
   color: #cec8ff;
@@ -64,11 +99,4 @@
   right: 320px !important;
   width: 100px !important;
   background-color: rgba(0, 0, 0, 0.2);
-}
-
-label {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: blue;
-  font-style: initial;
 }

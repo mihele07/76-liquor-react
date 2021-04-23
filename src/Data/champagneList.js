@@ -1,16 +1,15 @@
 export const ChampagneList = [
     {
       id: 1,
-      name: "LALLIER GRAND ROSE",
-      image: "../assets/champagnes/champagne-1.png",
+      name: "CHAMPAGNE LALLIER GRAND ROSE",
+      image: "/assets/champagnes/champagne-1.png",
       price: "$65",
-      descripton:
-        "Wine Spectator-Champagne, France - This Champagne is open-knit and balanced, featuring flavors of white cherry, pickled ginger, apple, toast, mineral-tinged chalk and smoke. Fresh, with a subtle finish.",
+      descripton: "Wine Spectator-Champagne, France - This Champagne is open-knit and balanced, featuring flavors of white cherry, pickled ginger, apple, toast, mineral-tinged chalk and smoke. Fresh, with a subtle finish.",
     },
   
     {
       id: 2,
-      name: "MONTAUDON BRUT",
+      name: "CHAMPAGNE MONTAUDON BRUT",
       image: "../assets/champagnes/champagne-2.png",
       price: "$40",
       descripton:
@@ -19,7 +18,7 @@ export const ChampagneList = [
 
     {
         id: 3,
-        name: "REALUNA PROSECCO",
+        name: "CHAMPAGNE REALUNA PROSECCO",
         image: "../assets/champagnes/champagne-3.png",
         price: "$15",
         descripton:

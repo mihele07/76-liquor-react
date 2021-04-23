@@ -6,7 +6,6 @@ import {
   NavbarToggler,
   Collapse,
   NavItem,
-  Jumbotron,
   Modal,
   ModalHeader,
   ModalBody,
@@ -51,11 +50,17 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <Jumbotron fluid>
-          <div className="container">
-            <div className="row"></div>
+        <div className="header-wines">
+         
+            
+              <div className="slogan">
+                <h2 className="logo-header">
+                  When your spirits are low, Call us
+                </h2>
+            
+          
           </div>
-        </Jumbotron>
+        </div>
         <p className="adress">
           1473 1st Avenue, New York, NY 10021 || 212-249-1700 || Open Monday -
           Saturday till Midnight.
@@ -65,8 +70,8 @@ class Header extends Component {
             <NavbarBrand className="mr-auto" href="/">
               <img
                 src="/assets/images/logo.png"
-                height="30"
-                width="30 "
+                height="70"
+                width="70 "
                 alt="76 Logo"
               />
             </NavbarBrand>
@@ -98,50 +103,14 @@ class Header extends Component {
                 </NavItem>
               </Nav>
             </Collapse>
-            <span className="navbar-text ml-auto">
-              <button outline onClick={this.toggleModal}>
-                <i className="fa fa-sign-in fa-lg" /> Delivery Option
-              </button>
-            </span>
+           
           </div>
         </Navbar>
-        <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-          <ModalHeader toggle={this.toggleModal}> Delivery Option </ModalHeader>
-          <ModalBody>
-            <Form onSubmit={this.handleLogin}>
-              <FormGroup>
-                <Label htmlFor="firstLast">First & Last Name </Label>
-                <Input
-                  type="text"
-                  id="firstLast"
-                  name="firstLast"
-                  innerRef={(input) => (this.firstLast = input)}
-                />
-              </FormGroup>
-              <FormGroup>
-                <Label htmlFor="address"> Address </Label>
-                <Input
-                  type="text"
-                  id="address"
-                  name="address"
-                  innerRef={(input) => (this.address = input)}
-                />
-              </FormGroup>
-              <FormGroup>
-                <Label htmlFor="phoneNumber"> Phone Number </Label>
-                <Input
-                  type="tel"
-                  id="phoneNumber"
-                  name="phoneNumber"
-                  innerRef={(input) => (this.phoneNumber = input)}
-                />
-              </FormGroup>
-              <button type="submit" value="submit" color="primary">
-                Submit
-              </button>
-            </Form>
-          </ModalBody>
-        </Modal>
+
+
+
+
+
       </React.Fragment>
     );
   }

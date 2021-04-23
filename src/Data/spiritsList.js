@@ -1,7 +1,7 @@
 export const spiritsList = [
     {
       id: 1,
-      name: "Tito's",
+      name: "Tito's Homemade Vodka",
       type: "vodka",
       image: "../assets/spirits/spirits-1.png",
       price: "$35",
@@ -11,7 +11,7 @@ export const spiritsList = [
 
     {
         id: 2,
-        name: "Johnnie Walker Black Label Blended Scotch Whisky",
+        name: "Johnnie Walker Black Label Scotch Whisky",
         type: "whisky",
         image: "../assets/spirits/spirits-2.png",
         price: "$39",
@@ -41,7 +41,7 @@ export const spiritsList = [
 
       {
         id: 5,
-        name: "Jack Daniel's",
+        name: "Jack Daniel's Tennesse Whiskey",
         type: "wiskey",
         image: "../assets/spirits/spirits-5.png",
         price: "$46",
@@ -51,7 +51,7 @@ export const spiritsList = [
 
       {
         id: 6,
-        name: "Absolut Vodka",
+        name: "Absolut Original Vodka",
         type: "vodka",
         image: "../assets/spirits/spirits-6.png",
         price: "$34",
@@ -61,7 +61,7 @@ export const spiritsList = [
 
       {
         id: 7,
-        name: "BOMBAY SAPPHIRE",
+        name: "BOMBAY SAPPHIRE Gin",
         type: "gin",
         image: "../assets/spirits/spirits-7.png",
         price: "$42",
@@ -71,7 +71,7 @@ export const spiritsList = [
 
       {
         id: 8,
-        name: "Jose Cuervo",
+        name: "Jose Cuervo ESPECIAL",
         type: "tequila",
         image: "../assets/spirits/spirits-8.png",
         price: "$25",

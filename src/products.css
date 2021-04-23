@@ -1,10 +1,55 @@
 .products-backround-image {
-    background-image: url('./bkgdImages/champ-blur.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    height:1000px;
-    width: 1000p;
-    margin: absolute;
-    background-position: 0rem;
-  }
+  background-image: url("./bkgdImages/champ-blur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardbodyChamp {
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+
+
+.cardSize {
+  width: 200px;
+  border-color:rgb(252, 251, 251);
+  padding: 0;
+}
+
+.cardSize Button {
+  background-color: #65062c;
+  outline: none;
+  border: none;
+}
+
+.cardSize Button:hover {
+  background-color: white;
+  color: #65062c;
+  outline: none;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-desription {
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 10px;
+}
+
+#wine {
+  margin-bottom: 100px;
+}

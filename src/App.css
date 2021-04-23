@@ -11,18 +11,10 @@ h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: "Lobster", cursive;
+  font-family:Verdana, Geneva, Tahoma, sans-serif,
 }
 
-.card-title {
-  font-weight: 500;
-  font-size: 1.25rem;
-}
 
-.card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 
 .row-content {
   padding: 50px 0;
