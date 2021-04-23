@@ -1,0 +1,15 @@
+.cardBody {
+    margin-left:8% ;
+}
+
+.card-body {
+  background-color: #760834;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  width: 60%;
+  margin: 2rem 0;
+  border: 10px;
+  border: solid 5px white;
