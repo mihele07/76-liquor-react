@@ -16,7 +16,7 @@ export const wineList = [
     price: "$40",
     image: "../assets/wines/wine-2.png",
     descripton:
-      "German-born Hermann J. Wiemer was a pioneer of viticulture and winemaking in New York’s Finger Lakes region. In 2003, his apprentice Fred Merwath took over the winery, along with Merwath’s college friend and now co-owner, Oskar Bynke. The pair are now making the region’s most exciting wines, growing grapes without pesticides and herbicides, and slowly fermenting wines over periods of eight months or more. Grapes for this bottle come from the HJW vineyard, whose aged vines benefit from the moderating effects of nearby Seneca Lake. The site’s elevation also provides a cool, prolonged growing season, meaning grapes mature with intensity and finesse and maintain fresh fruit flavors and bracing acidity. This bottle has green apple, white peach, and lemon notes, followed by alasting, crisp finish. Dry, age-worthy, and absolutely delicious, this is the most stunning Riesling currently being made in America.",
+      "German-born Hermann J. Wiemer was a pioneer of viticulture and winemaking in New York’s Finger Lakes region. In 2003, his apprentice Fred Merwath took over the winery, along with Merwath’s college friend and now co-owner, Oskar Bynke. The pair are now making the region’s most exciting wines, growing grapes without pesticides and herbicides, and slowly fermenting wines over periods of eight months or more. Grapes for this bottle come from the HJW vineyard, whose aged vines benefit from the moderating effects of nearby Seneca Lake. The site’s elevation also provides a cool, prolonged growing season, meaning grapes mature with intensity and finesse and maintain fresh fruit flavors and bracing acidity.",
   },
 
   {
@@ -26,7 +26,7 @@ export const wineList = [
     price: "$125",
     image: "../assets/wines/wine-3.png",
     descripton:
-      "Norwegian billionaire Alexander Vik founded an eponymous Chilean winery with the modest aim of creating the best wine in South America. In 2006, after years of extensive planning, research, and soil analysis, he purchased an 11,000-acre estate in the Millahue Valley. Viña Vik’s flagship Millahue blend contains Cabernet Sauvignon grapes from three different vine clones, planted across three plots. Smaller quantities of Cabernet Franc, Merlot, Syrah, and Carménère complete the wine. The 2013 vintage more than delivers on Vik’s vision, with dark berry aromas, followed by dried herbs and floral notes. Bright and energetic on the palate, with spicy tannins, this is a polished wine capable of aging. Not only is this now South America’s best wine, it ranks among the finest bottles we tasted all year.",
+      "Norwegian billionaire Alexander Vik founded an eponymous Chilean winery with the modest aim of creating the best wine in South America. In 2006, after years of extensive planning, research, and soil analysis, he purchased an 11,000-acre estate in the Millahue Valley. Viña Vik’s flagship Millahue blend contains Cabernet Sauvignon grapes from three different vine clones, planted across three plots. The 2013 vintage more than delivers on Vik’s vision, with dark berry aromas, followed by dried herbs and floral notes. Bright and energetic on the palate, with spicy tannins, this is a polished wine capable of aging.",
   },
 
   {
