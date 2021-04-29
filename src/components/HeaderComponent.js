@@ -5,14 +5,7 @@ import {
   NavbarBrand,
   NavbarToggler,
   Collapse,
-  NavItem,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  Form,
-  FormGroup,
-  Input,
-  Label,
+  NavItem
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 

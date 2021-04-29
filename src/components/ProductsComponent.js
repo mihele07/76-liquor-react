@@ -230,7 +230,6 @@ class Products extends Component {
     return (
       <div className="products-backround-image">
         <div className="container">
-          <h3></h3>
           <div id="champ" className="row justify-content-center">
             <div className="col-md-3 offset-md-2">
               <Card

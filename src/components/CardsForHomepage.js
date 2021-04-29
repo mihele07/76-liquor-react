@@ -1,7 +1,6 @@
 import React from "react";
 import "../cardsForHomepage.css";
 import { motion } from "framer-motion";
-import { red } from "@material-ui/core/colors";
 
 const CardsForHomepage = () => {
   return (
