@@ -2,13 +2,10 @@ import React, { Component, useState } from "react";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
   Button,
   CardGroup,
-  UncontrolledPopover,
-  PopoverBody,
 } from "reactstrap";
 import "../products.css";
 import Popup from "./PopupComponent";
@@ -192,7 +189,7 @@ class Products extends Component {
     let champaigns = null;
     const champ = this.props.champagnes.map((n) => {
       return (
-        <div key={n.id} className="col md-5 m-1">
+        <div key={n.id} className="col-md-3 col-sm-6 col-12">
           <RenderChampange champagne={n} />
         </div>
       );
@@ -209,7 +206,7 @@ class Products extends Component {
     let spirits = null;
     const fred = this.props.spirits.map((m) => {
       return (
-        <div key={m.id} className="col md-5 m-1">
+        <div key={m.id} className="col-md-3 col-sm-6 col-12">
           <RenderSpirit henny={m} />
         </div>
       );
@@ -221,7 +218,7 @@ class Products extends Component {
     let wines = null;
     const rose = this.props.wines.map((m) => {
       return (
-        <div key={m.id} className="col md-5 m-1">
+        <div key={m.id} className="col-md-3 col-sm-6 col-12">
           <RenderWine menlo={m} />
         </div>
       );
